@@ -10,6 +10,16 @@ function App() {
       </button>      
 
 
+      <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded 
+                   sm:bg-green-500 
+                   md:bg-yellow-500 
+                   lg:bg-red-500 
+                   xl:bg-purple-500">
+        Responsive Button
+    </button>
+
+
+
       { /* ---------------- RESPONSIVE FLEXBOX ---------------- */}
       <div className="flex flex-wrap justify-center">
         <div className="bg-white border border-gray-300 shadow-md rounded-lg p-4 m-2 w-64">
